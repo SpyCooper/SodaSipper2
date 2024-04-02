@@ -133,4 +133,6 @@ public class GameManager : MonoBehaviour
         }
         UpdateCounter();
     }
+
+    public void AddSetAmt(int amt) => sips += amt;
 }
